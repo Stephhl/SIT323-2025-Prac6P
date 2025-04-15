@@ -53,3 +53,9 @@ kubectl apply -f createDeployment.yaml
 ```bash
 kubectl apply -f calc_service.yaml
 ```
+
+9. Test if the application is working by going to the local port
+
+```bash
+http://localhost:31841/divide?n1=10&n2=1
+```
